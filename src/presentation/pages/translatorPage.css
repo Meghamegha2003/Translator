@@ -1,0 +1,60 @@
+.translator-page{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.language-row{
+  display:flex;
+  gap:15px;
+}
+
+.lang-box{
+  flex:1;
+}
+
+.content-row{
+  display:flex;
+  gap:15px;
+}
+
+.input-box{
+  flex:1;
+}
+
+.result-box{
+  flex:1;
+}
+
+.button-row{
+  display:flex;
+  justify-content:center;
+}
+
+.translator-heading{
+  text-align:center;
+  font-size:32px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+@media (max-width:600px){
+
+  .translator-page{
+    padding:10px;
+    gap:12px;
+  }
+
+  .translator-heading{
+    font-size:24px;
+  }
+
+  .language-row,
+  .content-row{
+    gap:10px;
+  }
+
+}
