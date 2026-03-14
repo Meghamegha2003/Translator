@@ -67,13 +67,13 @@ src
 git clone https://github.com/your-username/translator-app.git
 ````
 
-### 3️⃣ Install dependencies
+### 2️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4️⃣ Run the development server
+### 3️⃣ Run the development server
 
 ```bash
 npm run dev
