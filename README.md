@@ -1,16 +1,109 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 React Translator App
 
-Currently, two official plugins are available:
+A simple web-based translation application built with React that allows users to translate text between multiple languages using the MyMemory Translation API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application provides a clean UI where users can enter text, choose source and target languages, and instantly get translations.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌐 Translate text between multiple languages
+- 🔄 Select source and target languages
+- ⚡ Fast translation using external API
+- 🧠 Simple and beginner-friendly React structure
+- 📱 Responsive UI
+- ❌ Error handling for failed API requests
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+Frontend
+- React
+- JavaScript
+- CSS
+
+API
+- MyMemory Translation API
+
+Build Tool
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├───application
+│   └───controllers
+├───assets
+├───domine
+│   ├───entities
+│   └───useCase
+├───infrastructure
+│   └───api
+└───presentation
+    ├───component
+    │   ├───languageSelect
+    │   ├───resultBox
+    │   ├───textInput
+    │   └───translateBt
+    ├───context
+    └───pages
+
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/translator-app.git
+````
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔄 How Translation Works
+
+1. User enters text.
+2. User selects source and target languages.
+3. The app calls the MyMemory Translation API.
+4. API returns translated text.
+5. The result is displayed in the output box.
+
+Example API request:
+
+```
+https://api.mymemory.translated.net/get?q=Hello&langpair=en|hi
+```
+
+
+## 👩‍💻 Author
+
+Megha Gopalakrishnan
+
+
