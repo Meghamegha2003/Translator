@@ -1,5 +1,5 @@
 import Translation from "../../domine/entities/Translation";
-import { translationAPI } from "../../infrastructure/service/translationAPI";
+import { translationAPI } from "../../infrastructure/api/translationAPI";
 
 export async function handleTranslation(dispatch, text, from, to) {
   try {

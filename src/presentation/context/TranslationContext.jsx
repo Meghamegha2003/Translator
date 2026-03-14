@@ -1,6 +1,6 @@
 import { createContext, useReducer } from "react";
 
-export const TranslationContext = createContext();
+export  const TranslationContext = createContext();
 
 const initalState = {
   result: "",
